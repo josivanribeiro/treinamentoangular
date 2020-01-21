@@ -1,0 +1,13 @@
+{
+    "urlPadrao": "http://localhost:8080/",
+    "redirectUri": "http://localhost:4200/",
+    "issuer": "https://wso2identity.hom.sicredi.net/oauth2/token",
+    "loginUrl": "https://wso2identity.hom.sicredi.net/oauth2/authorize",
+    "logoutUrl": "https://cookieprovider-hom.sicredi.com.br/logout_redirect.html?url=http://localhost:4200/",
+    "urlLogin": "https://wso2identity.hom.sicredi.net/oauth2/authorize/",
+    "clientId": "ix5SJxXvBnu4uZ4rNZ9VOyGfN6oa",
+    "discoveryUrl": "https://wso2identity.hom.sicredi.net/oauth2/oidcdiscovery/.well-known/openid-configuration",
+    "pathContext": "",
+    "wsoRedirectLogout": "https://wso2identity.hom.sicredi.net/oidc/logout?id_token_hint=",
+    "tempoRefreshToken": "400000"
+  }

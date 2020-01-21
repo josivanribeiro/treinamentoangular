@@ -1,0 +1,13 @@
+{
+    "urlPadrao": "https://gesres-bff-api.dev.rs-1.paas.sicredi.net/",
+    "redirectUri": "https://gesres-front.dev.rs-1.paas.sicredi.net/",
+    "issuer": "https://wso2identity.hom.sicredi.net/oauth2/token",
+    "loginUrl": "https://wso2identity.hom.sicredi.net/oauth2/authorize",
+    "logoutUrl": "https://cookieprovider-hom.sicredi.com.br/logout_redirect.html?url=https://gesres-front.dev.rs-1.paas.sicredi.net/",
+    "urlLogin": "https://wso2identity.hom.sicredi.net/oauth2/authorize",
+    "clientId": "ix5SJxXvBnu4uZ4rNZ9VOyGfN6oa",
+    "discoveryUrl": "https://wso2identity.hom.sicredi.net/oauth2/oidcdiscovery/.well-known/openid-configuration",
+    "wsoRedirectLogout": "https://wso2identity.hom.sicredi.net/oidc/logout?id_token_hint=",
+    "pathContext": "",
+    "tempoRefreshToken": "400000"
+  }

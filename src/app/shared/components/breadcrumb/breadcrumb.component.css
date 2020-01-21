@@ -1,0 +1,38 @@
+/* Migalhas */
+  
+.breadcrumb {
+    background-color: transparent;
+    border-radius: 0;
+    padding: 0px;
+    font-size: 13px;
+    color: #666666;
+    margin-top: 6px;
+    margin-bottom: 0px;
+    margin-left: 10px;
+}
+
+.breadcrumb span {
+    margin-left: 2px;
+    color: #64C832;
+    font-family: 'Exo 2', Arial, Helvetica, sans serif;
+    font-weight: 900;
+    font-style: italic;
+}
+
+.breadcrumb .fa {
+    font-size: 10px;
+    color: #44c537;
+    padding: 0 3px;
+}
+
+.breadcrumb-title {
+    font-weight: normal !important;
+    color: black !important;
+    font-style: normal !important;
+}
+
+.linha-breadcrumb {
+    color: #64C832;
+    margin-top: 5px;
+}
+

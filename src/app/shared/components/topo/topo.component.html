@@ -1,0 +1,27 @@
+<!--CABEÇALHO><!-->
+  <div class="container-fluid" id="containerTopo">
+      <div class="row head_sicredi" id="head">
+        <div class="col-lg-4 col-md-4 col-6 order-lg-1 order-md-1 order-1" id="col_1">
+          <img src="assets/img/logo_sicredi.png" class="logo_sicredi line" id="logo">
+        </div>
+        <div class="col-lg-4 col-md-4 col-12 center order-lg-2 order-md-2 order-3 head-title" id="col_2">
+          <h1 class="title line" id="titulo">BUREAU</h1>
+        </div>
+        <div class="col-lg-4 col-md-4 col-6 order-lg-3 order-md-3 order-2" id="col_3">
+          <div class="row line user" id="linha">
+            <div id="icone">
+              <i class="fa fa-user-circle icon-white" id="user_icon"></i>
+               <span class="user_name" id="user">{{nomeUsuario}}</span>
+            </div>
+            <div class="logoff" id="logout">
+              <a (click)="logoutAct()" id="evento_logout">
+                <i class="fa fa-power-off icon-white" id="logout_icon"></i>
+                <span class="user_name_logout" id="sair">Sair</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--CABEÇALHO><!-->    
+
